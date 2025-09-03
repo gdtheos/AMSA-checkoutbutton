@@ -35,9 +35,9 @@ export function activate(context: vscode.ExtensionContext) {
 
 		}
 		
-		terminal.sendText("cd " + docPath);
+		terminal.sendText("cd '" + docPath + "'");
 		terminal.sendText("git add --all\n\n");
-		terminal.sendText("git commit --allow-empty-message -m ''");
+		terminal.sendText("git commit -m 'dummy checkout message'");
 	});
 
 	context.subscriptions.push(checkout);
