@@ -4,6 +4,10 @@
   "displayName": "AMSA-checkoutbutton",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gdtheos/AMSA-checkoutbutton"
+  }
   "engines": {
     "vscode": "^1.103.0"
   },
