@@ -7,7 +7,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gdtheos/AMSA-checkoutbutton"
-  }
+  },
   "engines": {
     "vscode": "^1.103.0"
   },
